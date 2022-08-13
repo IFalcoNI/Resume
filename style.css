@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(192, 192, 192, 0.067);
+}
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+.name-block {
+  margin-top: 20px;
+}
+.contact-block {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.contact-block a {
+  color: white;
+  text-decoration: none;
+}
+.contact-block a:hover {
+  color: rgb(19, 19, 139);
+}
+.mail-block > div,
+.social-media-block > div {
+  margin: 5px;
+}
+.skills-block {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.education-block > div,
+.education-block > h2 {
+  margin: 10px;
+}
+.education-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(19, 19, 139);
+}
+.education-name {
+  font-size: 18px;
+}
+.dates {
+  font-size: 14px;
+}
+.skills-projects-block {
+  max-width: 400px;
+}
+.skills-projects-block > div {
+  margin: 10px;
+}
+.skills-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 5px 5px 5px 0px;
+}
+.courses {
+  max-width: 400px;
+}
+.personal-projects,
+.skill-block,
+.courses,
+.languages {
+  margin: 20px 0;
+}
+.personal-projects > div,
+.personal-projects > h2,
+.courses > div,
+.courses > h2,
+.languages > div,
+.languages > h2 {
+  margin: 10px 0;
+}
+.course,
+.eng {
+  color: rgb(19, 19, 139);
+}
+@media screen and (max-width: 1200px) {
+  .name-block {
+    text-align: center;
+  }
+}
